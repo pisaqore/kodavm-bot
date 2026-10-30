@@ -31,4 +31,10 @@ jobs:
           git config user.name "kodavm-bot"
           git config user.email "bot@kodavm.com"
           git add data/
-          git diff --cached --quiet || git commit -m "data: hourly snapshot" && git push
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -m "data: hourly snapshot"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 3
+          done
+          exit 1
