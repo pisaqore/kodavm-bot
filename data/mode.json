@@ -1,7 +1,7 @@
 {
- "mode": "paused",
- "why": "API failed 2 runs in a row.",
- "errors": 4,
+ "mode": "normal",
+ "why": "Learning period: day 1 of 14. Only errors and policy warnings stop me.",
+ "errors": 0,
  "cautious_since": null,
- "updated": "2026-10-30T10:48:57.821473+00:00"
+ "updated": "2026-10-30T11:38:37.806113+00:00"
 }

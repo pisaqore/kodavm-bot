@@ -1,0 +1,57 @@
+{
+ "updated": "2026-10-30T11:38:37.805920+00:00",
+ "day": 1,
+ "subs": 0,
+ "subsDay": 0,
+ "views": 0,
+ "viewsDay": 0,
+ "viewsHour": 0,
+ "hourly": [
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "milestone": {
+  "prev": 0,
+  "next": 100
+ },
+ "milestones": [
+  100,
+  500,
+  1000,
+  5000,
+  10000,
+  50000,
+  100000
+ ],
+ "videos": [
+  {
+   "id": "tugrKwzT8bM",
+   "title": "An automated channel built in public, from zero to 10K. Live numbers: kodavm.com",
+   "published": "2026-10-30T10:38:19Z",
+   "views": 1,
+   "likes": 0
+  }
+ ]
+}
