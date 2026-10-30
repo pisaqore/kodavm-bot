@@ -1,18 +1,19 @@
 name: make-short
+
 on:
   workflow_dispatch:
     inputs:
       dry_run:
         description: "Dry run (render only, do NOT upload)"
         type: boolean
-        default: true
+        default: false
       privacy:
         description: "Privacy of the uploaded video"
         type: choice
         options: [private, unlisted, public]
         default: private
-  # schedule:                 # enable after the first successful upload
-  #   - cron: "0 15 * * *"    # daily 15:00 UTC
+  schedule:
+    - cron: "0 */6 * * *"   # Günde 4 kez (her 6 saatte bir) otomatik çalışır
 
 permissions:
   contents: write
