@@ -1,6 +1,25 @@
 name: make-short
 on:
-  workflow_dispatch:      # manual test first; scheduling comes after the sample looks right
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (render only, do NOT upload)"
+        type: boolean
+        default: true
+      privacy:
+        description: "Privacy of the uploaded video"
+        type: choice
+        options: [private, unlisted, public]
+        default: private
+  # schedule:                 # enable after the first successful upload
+  #   - cron: "0 15 * * *"    # daily 15:00 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: make-short
+  cancel-in-progress: false
 
 jobs:
   render:
@@ -23,7 +42,27 @@ jobs:
         run: python -m piper.download_voices en_US-lessac-medium --data-dir voices
       - name: Make Short
         run: python scripts/make_short.py
+      - name: Upload to YouTube
+        env:
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+          PRIVACY: ${{ inputs.privacy || 'private' }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python scripts/upload_short.py
       - uses: actions/upload-artifact@v4
         with:
           name: short
           path: out/short_*
+      - name: Commit upload log
+        run: |
+          git config user.name "kodavm-bot"
+          git config user.email "bot@kodavm.com"
+          git add data/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "data: upload log"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 3
+          done
+          exit 1
