@@ -1,68 +1,68 @@
 name: make-short
 on:
-  workflow_dispatch:
-    inputs:
-      dry_run:
-        description: "Dry run (render only, do NOT upload)"
-        type: boolean
-        default: true
-      privacy:
-        description: "Privacy of the uploaded video"
-        type: choice
-        options: [private, unlisted, public]
-        default: private
-  # schedule:                 # enable after the first successful upload
-  #   - cron: "0 15 * * *"    # daily 15:00 UTC
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (render only, do NOT upload)"
+        type: boolean
+        default: true
+      privacy:
+        description: "Privacy of the uploaded video"
+        type: choice
+        options: [private, unlisted, public]
+        default: private
+  # schedule:                 # enable after the first successful upload
+  #   - cron: "0 15 * * *"    # daily 15:00 UTC
 
 permissions:
-  contents: write
+  contents: write
 
 concurrency:
-  group: make-short
-  cancel-in-progress: false
+  group: make-short
+  cancel-in-progress: false
 
 jobs:
-  render:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Install tools
-        run: |
-          sudo apt-get update -y && sudo apt-get install -y fonts-dejavu-core ffmpeg
-          pip install pillow piper-tts
-      - name: Cache Piper voice
-        uses: actions/cache@v4
-        with:
-          path: voices
-          key: piper-en_US-lessac-medium
-      - name: Download voice
-        run: python -m piper.download_voices en_US-lessac-medium --data-dir voices
-      - name: Make Short
-        run: python scripts/make_short.py
-      - name: Upload to YouTube
-        env:
-          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
-          PRIVACY: ${{ inputs.privacy || 'private' }}
-          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
-          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
-          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
-        run: python scripts/upload_short.py
-      - uses: actions/upload-artifact@v4
-        with:
-          name: short
-          path: out/short_*
-      - name: Commit upload log
-        run: |
-          git config user.name "kodavm-bot"
-          git config user.email "bot@kodavm.com"
-          git add data/
-          if git diff --cached --quiet; then exit 0; fi
-          git commit -m "data: upload log"
-          for i in 1 2 3; do
-            git pull --rebase -X theirs origin main && git push && exit 0
-            sleep 3
-          done
-          exit 1
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install tools
+        run: |
+          sudo apt-get update -y && sudo apt-get install -y fonts-dejavu-core ffmpeg
+          pip install pillow piper-tts
+      - name: Cache Piper voice
+        uses: actions/cache@v4
+        with:
+          path: voices
+          key: piper-en_US-lessac-medium
+      - name: Download voice
+        run: python -m piper.download_voices en_US-lessac-medium --data-dir voices
+      - name: Make Short
+        run: python scripts/make_short.py
+      - name: Upload to YouTube
+        env:
+          DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
+          PRIVACY: ${{ inputs.privacy || 'private' }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN: ${{ secrets.YT_REFRESH_TOKEN }}
+        run: python scripts/upload_short.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: short
+          path: out/short_*
+      - name: Commit upload log
+        run: |
+          git config user.name "kodavm-bot"
+          git config user.email "bot@kodavm.com"
+          git add data/
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "data: upload log"
+          for i in 1 2 3; do
+            git pull --rebase -X theirs origin main && git push && exit 0
+            sleep 3
+          done
+          exit 1
