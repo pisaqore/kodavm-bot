@@ -1,13 +1,12 @@
 {
- "updated": "2026-11-01T06:56:04.288508+00:00",
+ "updated": "2026-11-01T07:58:53.447412+00:00",
  "day": 3,
  "subs": 0,
  "subsDay": 0,
  "views": 84,
- "viewsDay": 84,
- "viewsHour": 10,
+ "viewsDay": 11,
+ "viewsHour": 0,
  "hourly": [
-  0,
   73,
   0,
   0,
@@ -30,7 +29,8 @@
   0,
   0,
   0,
-  10
+  10,
+  0
  ],
  "milestone": {
   "prev": 0,
@@ -58,6 +58,13 @@
    "title": "Day 2: 0 subscribers, built in public #shorts #kodavm",
    "published": "2026-10-31T09:55:30Z",
    "views": 14,
+   "likes": 0
+  },
+  {
+   "id": "BbNxC4sl5xA",
+   "title": "Day 3: 0 subscribers, built in public #shorts #kodavm",
+   "published": "2026-11-01T07:21:19Z",
+   "views": 2,
    "likes": 0
   }
  ]
