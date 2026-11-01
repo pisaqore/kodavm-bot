@@ -1,16 +1,15 @@
 {
- "updated": "2026-10-31T23:36:35.746150+00:00",
- "day": 2,
+ "updated": "2026-11-01T01:04:15.050908+00:00",
+ "day": 3,
  "subs": 0,
  "subsDay": 0,
  "views": 74,
  "viewsDay": 74,
- "viewsHour": 1,
+ "viewsHour": 0,
  "hourly": [
   0,
   0,
   0,
-  0,
   73,
   0,
   0,
@@ -30,7 +29,8 @@
   0,
   0,
   0,
-  1
+  1,
+  0
  ],
  "milestone": {
   "prev": 0,
@@ -50,7 +50,7 @@
    "id": "tugrKwzT8bM",
    "title": "An automated channel built in public, from zero to 10K. Live numbers: kodavm.com",
    "published": "2026-10-30T10:38:19Z",
-   "views": 74,
+   "views": 72,
    "likes": 1
   },
   {
