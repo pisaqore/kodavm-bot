@@ -1,13 +1,12 @@
 {
- "updated": "2026-11-03T07:08:08.921559+00:00",
+ "updated": "2026-11-03T08:56:29.707538+00:00",
  "day": 5,
  "subs": 0,
  "subsDay": 0,
  "views": 100,
- "viewsDay": 14,
+ "viewsDay": 9,
  "viewsHour": 0,
  "hourly": [
-  5,
   0,
   5,
   0,
@@ -28,6 +27,7 @@
   0,
   0,
   9,
+  0,
   0,
   0,
   0
@@ -78,7 +78,7 @@
    "id": "XQivigS4MkU",
    "title": "Day 5: 0 subscribers, built in public #shorts",
    "published": "2026-11-03T04:59:31Z",
-   "views": 1,
+   "views": 0,
    "likes": 1
   }
  ]
