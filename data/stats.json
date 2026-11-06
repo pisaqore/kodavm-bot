@@ -1,13 +1,12 @@
 {
- "updated": "2026-11-06T18:53:12.753624+00:00",
+ "updated": "2026-11-06T19:53:07.975972+00:00",
  "day": 8,
  "subs": 0,
  "subsDay": 0,
- "views": 114,
- "viewsDay": 7,
- "viewsHour": 0,
+ "views": 125,
+ "viewsDay": 18,
+ "viewsHour": 11,
  "hourly": [
-  0,
   0,
   0,
   0,
@@ -30,7 +29,8 @@
   0,
   0,
   0,
-  0
+  0,
+  11
  ],
  "milestone": {
   "prev": 0,
@@ -64,7 +64,7 @@
    "id": "ZI8aNyxaMSU",
    "title": "Day 8: 0 subscribers, built in public #shorts",
    "published": "2026-11-06T07:47:11Z",
-   "views": 13,
+   "views": 12,
    "likes": 0
   },
   {
