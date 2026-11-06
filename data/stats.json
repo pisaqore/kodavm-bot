@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T10:03:45.322553+00:00",
+ "updated": "2026-11-06T11:06:15.619428+00:00",
  "day": 8,
  "subs": 0,
  "subsDay": 0,
@@ -7,7 +7,6 @@
  "viewsDay": 7,
  "viewsHour": 0,
  "hourly": [
-  0,
   0,
   0,
   3,
@@ -27,6 +26,7 @@
   0,
   0,
   7,
+  0,
   0,
   0,
   0,
@@ -61,6 +61,13 @@
    "likes": 0
   },
   {
+   "id": "ZI8aNyxaMSU",
+   "title": "Day 8: 0 subscribers, built in public #shorts",
+   "published": "2026-11-06T07:47:11Z",
+   "views": 10,
+   "likes": 0
+  },
+  {
    "id": "Jn7SWHjivVc",
    "title": "Day 4: 0 subscribers, built in public #shorts",
    "published": "2026-11-02T06:10:12Z",
@@ -72,13 +79,6 @@
    "title": "Day 7: 0 subscribers, built in public #shorts",
    "published": "2026-11-05T16:00:05Z",
    "views": 8,
-   "likes": 0
-  },
-  {
-   "id": "BbNxC4sl5xA",
-   "title": "Day 3: 0 subscribers, built in public #shorts #kodavm",
-   "published": "2026-11-01T07:21:19Z",
-   "views": 5,
    "likes": 0
   }
  ]
