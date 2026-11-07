@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T08:00:34.143439+00:00",
+ "updated": "2026-11-07T08:53:08.178980+00:00",
  "day": 9,
  "subs": 1,
  "subsDay": 1,
@@ -7,7 +7,6 @@
  "viewsDay": 13,
  "viewsHour": 0,
  "hourly": [
-  0,
   0,
   0,
   0,
@@ -28,6 +27,7 @@
   0,
   0,
   2,
+  0,
   0,
   0,
   0
@@ -78,7 +78,7 @@
    "id": "dxKQSbvSXtg",
    "title": "Day 7: 0 subscribers, built in public #shorts",
    "published": "2026-11-05T16:00:05Z",
-   "views": 8,
+   "views": 9,
    "likes": 0
   }
  ]
