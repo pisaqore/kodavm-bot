@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:50:32.924260+00:00",
+ "updated": "2026-11-07T13:51:55.627838+00:00",
  "day": 9,
  "subs": 1,
  "subsDay": 1,
@@ -7,7 +7,6 @@
  "viewsDay": 13,
  "viewsHour": 0,
  "hourly": [
-  0,
   0,
   0,
   0,
@@ -23,6 +22,7 @@
   0,
   0,
   2,
+  0,
   0,
   0,
   0,
@@ -68,17 +68,17 @@
    "likes": 0
   },
   {
-   "id": "Jn7SWHjivVc",
-   "title": "Day 4: 0 subscribers, built in public #shorts",
-   "published": "2026-11-02T06:10:12Z",
+   "id": "dxKQSbvSXtg",
+   "title": "Day 7: 0 subscribers, built in public #shorts",
+   "published": "2026-11-05T16:00:05Z",
    "views": 10,
    "likes": 0
   },
   {
-   "id": "dxKQSbvSXtg",
-   "title": "Day 7: 0 subscribers, built in public #shorts",
-   "published": "2026-11-05T16:00:05Z",
-   "views": 9,
+   "id": "Jn7SWHjivVc",
+   "title": "Day 4: 0 subscribers, built in public #shorts",
+   "published": "2026-11-02T06:10:12Z",
+   "views": 10,
    "likes": 0
   }
  ]
