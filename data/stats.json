@@ -1,13 +1,12 @@
 {
- "updated": "2026-11-10T07:07:45.222066+00:00",
+ "updated": "2026-11-10T08:56:48.915451+00:00",
  "day": 12,
  "subs": 1,
  "subsDay": 0,
- "views": 180,
- "viewsDay": 30,
- "viewsHour": 0,
+ "views": 184,
+ "viewsDay": 34,
+ "viewsHour": 4,
  "hourly": [
-  0,
   0,
   0,
   0,
@@ -30,7 +29,8 @@
   0,
   0,
   0,
-  0
+  0,
+  4
  ],
  "milestone": {
   "prev": 0,
@@ -57,7 +57,7 @@
    "id": "yAEWmOv8kXM",
    "title": "Day 10: 1 subscribers, built in public #shorts",
    "published": "2026-11-08T21:05:57Z",
-   "views": 30,
+   "views": 31,
    "likes": 0
   },
   {
