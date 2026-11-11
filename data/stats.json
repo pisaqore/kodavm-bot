@@ -1,15 +1,14 @@
 {
- "updated": "2026-11-11T07:14:10.922773+00:00",
+ "updated": "2026-11-11T08:57:57.674696+00:00",
  "day": 13,
  "subs": 1,
  "subsDay": 0,
  "views": 182,
- "viewsDay": 2,
- "viewsHour": 2,
+ "viewsDay": -2,
+ "viewsHour": 0,
  "hourly": [
   0,
   0,
-  0,
   4,
   0,
   0,
@@ -30,7 +29,8 @@
   0,
   0,
   0,
-  2
+  2,
+  0
  ],
  "milestone": {
   "prev": 0,
