@@ -1,7 +1,7 @@
 {
- "mode": "normal",
- "why": "Normal mode: 2-4 videos a day, one variable changed per day.",
+ "mode": "cautious",
+ "why": "Rethinking: no subscriber growth in 7 days",
  "errors": 0,
- "cautious_since": null,
- "updated": "2026-11-14T03:52:55.313299+00:00"
+ "cautious_since": "2026-11-14T04:54:32.980611+00:00",
+ "updated": "2026-11-14T04:54:32.980612+00:00"
 }
