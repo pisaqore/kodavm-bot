@@ -1,7 +1,7 @@
 {
  "mode": "cautious",
- "why": "Rethinking: last 3 videos are under 50% of the 14-day median; no subscriber growth in 7 days",
+ "why": "Rethinking: no subscriber growth in 7 days",
  "errors": 0,
  "cautious_since": "2026-11-14T04:54:32.980611+00:00",
- "updated": "2026-11-15T09:48:17.749879+00:00"
+ "updated": "2026-11-15T10:45:34.426648+00:00"
 }
