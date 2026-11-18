@@ -1,13 +1,12 @@
 {
- "updated": "2026-11-18T02:50:57.639478+00:00",
+ "updated": "2026-11-18T11:30:08.236175+00:00",
  "day": 20,
  "subs": 1,
  "subsDay": 0,
- "views": 214,
- "viewsDay": 3,
- "viewsHour": 0,
+ "views": 218,
+ "viewsDay": 7,
+ "viewsHour": 4,
  "hourly": [
-  0,
   0,
   0,
   0,
@@ -30,7 +29,8 @@
   0,
   3,
   0,
-  0
+  0,
+  4
  ],
  "milestone": {
   "prev": 0,
@@ -68,17 +68,17 @@
    "likes": 0
   },
   {
-   "id": "P4wwIAFgV3Q",
-   "title": "Day 16: 1 subscribers, built in public #shorts",
-   "published": "2026-11-14T10:36:06Z",
-   "views": 10,
-   "likes": 0
-  },
-  {
    "id": "dxKQSbvSXtg",
    "title": "Day 7: 0 subscribers, built in public #shorts",
    "published": "2026-11-05T16:00:05Z",
    "views": 10,
+   "likes": 0
+  },
+  {
+   "id": "Y0FA2EGyE-o",
+   "title": "Day 17: 1 subscribers, built in public #shorts",
+   "published": "2026-11-15T09:51:39Z",
+   "views": 9,
    "likes": 0
   }
  ]
