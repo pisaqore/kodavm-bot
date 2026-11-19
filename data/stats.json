@@ -1,13 +1,12 @@
 {
- "updated": "2026-11-19T11:29:08.352928+00:00",
+ "updated": "2026-11-19T20:28:09.320009+00:00",
  "day": 21,
  "subs": 1,
  "subsDay": 0,
  "views": 217,
- "viewsDay": 3,
+ "viewsDay": -1,
  "viewsHour": 0,
  "hourly": [
-  0,
   0,
   0,
   0,
@@ -28,6 +27,7 @@
   0,
   0,
   4,
+  0,
   0,
   0,
   0
@@ -61,6 +61,13 @@
    "likes": 0
   },
   {
+   "id": "eo-HrnbxN3Y",
+   "title": "Day 21: 1 subscribers, built in public #shorts",
+   "published": "2026-11-19T09:42:32Z",
+   "views": 15,
+   "likes": 0
+  },
+  {
    "id": "S2_chlu9J7o",
    "title": "Day 9: 1 subscribers, built in public #shorts",
    "published": "2026-11-07T05:30:07Z",
@@ -72,13 +79,6 @@
    "title": "Day 7: 0 subscribers, built in public #shorts",
    "published": "2026-11-05T16:00:05Z",
    "views": 10,
-   "likes": 0
-  },
-  {
-   "id": "Y0FA2EGyE-o",
-   "title": "Day 17: 1 subscribers, built in public #shorts",
-   "published": "2026-11-15T09:51:39Z",
-   "views": 8,
    "likes": 0
   }
  ]
