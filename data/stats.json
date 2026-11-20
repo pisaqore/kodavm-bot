@@ -1,13 +1,12 @@
 {
- "updated": "2026-11-20T02:14:21.987753+00:00",
+ "updated": "2026-11-20T11:24:34.391593+00:00",
  "day": 22,
  "subs": 1,
  "subsDay": 0,
- "views": 217,
- "viewsDay": -1,
- "viewsHour": 0,
+ "views": 230,
+ "viewsDay": 12,
+ "viewsHour": 13,
  "hourly": [
-  0,
   0,
   0,
   0,
@@ -30,7 +29,8 @@
   0,
   0,
   0,
-  0
+  0,
+  13
  ],
  "milestone": {
   "prev": 0,
@@ -64,7 +64,7 @@
    "id": "eo-HrnbxN3Y",
    "title": "Day 21: 1 subscribers, built in public #shorts",
    "published": "2026-11-19T09:42:32Z",
-   "views": 15,
+   "views": 17,
    "likes": 0
   },
   {
