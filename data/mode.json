@@ -1,7 +1,7 @@
 {
- "mode": "paused",
- "why": "Cautious for 5 days without recovery: no subscriber growth in 7 days",
- "errors": 0,
- "cautious_since": "2026-11-14T04:54:32.980611+00:00",
- "updated": "2026-11-24T00:45:26.455243+00:00"
+ "mode": "normal",
+ "why": "Normal mode: 2-4 videos a day, one variable changed per day.",
+ "errors": 1,
+ "cautious_since": null,
+ "updated": "2026-11-24T10:50:43.780840+00:00"
 }
