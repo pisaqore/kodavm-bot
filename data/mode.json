@@ -1,7 +1,7 @@
 {
- "mode": "normal",
- "why": "Normal mode: 2-4 videos a day, one variable changed per day.",
- "errors": 1,
+ "mode": "paused",
+ "why": "API failed 2 runs in a row.",
+ "errors": 2,
  "cautious_since": null,
- "updated": "2026-11-24T10:50:43.780840+00:00"
+ "updated": "2026-11-24T21:06:04.350430+00:00"
 }
