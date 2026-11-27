@@ -1,7 +1,7 @@
 {
  "mode": "paused",
  "why": "API failed 2 runs in a row.",
- "errors": 9,
+ "errors": 10,
  "cautious_since": null,
- "updated": "2026-11-27T12:02:09.929198+00:00"
+ "updated": "2026-11-27T21:08:22.281810+00:00"
 }
